@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "244525353920",
+    "firebase_url": "https://crypt2-67269-default-rtdb.firebaseio.com",
+    "project_id": "crypt2-67269",
+    "storage_bucket": "crypt2-67269.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244525353920:android:7e139ef6e387c553eb1625",
+        "android_client_info": {
+          "package_name": "com.example.crypt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244525353920-2tr7b08q6fbfrlnde42tsuede4gahuaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGxHVu133dhYqYhF038VtwSyasOYdgcIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "244525353920-2tr7b08q6fbfrlnde42tsuede4gahuaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:244525353920:android:5c4e3c04797338e8eb1625",
+        "android_client_info": {
+          "package_name": "com.example.testfileuploader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "244525353920-2tr7b08q6fbfrlnde42tsuede4gahuaa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGxHVu133dhYqYhF038VtwSyasOYdgcIQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "244525353920-2tr7b08q6fbfrlnde42tsuede4gahuaa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

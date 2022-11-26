@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    android:layout_gravity="center"
+    android:layout_marginHorizontal="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp">
+
+        <ImageView
+            android:id="@+id/LockItemDg"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/padlock"/>
+
+        <TextView
+            android:id="@+id/txtTitleDialog"
+            android:layout_below="@+id/LockItemDg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Titulo"
+            android:letterSpacing=".3"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:paddingVertical="15dp"
+            android:layout_marginHorizontal="20dp"/>
+
+        <TextView
+            android:id="@+id/txtDowloadDialog"
+            android:layout_below="@+id/txtTitleDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Descargar"
+            android:background="@drawable/dialog_bg"
+            android:textSize="17sp"
+            android:paddingVertical="12dp"/>
+
+        <TextView
+            android:id="@+id/txtShareDialog"
+            android:layout_below="@+id/txtDowloadDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Compartir"
+            android:textSize="17sp"
+            android:paddingVertical="12dp"
+            android:background="@drawable/dialog_bg"/>
+        <TextView
+            android:id="@+id/txtChangeName"
+            android:layout_below="@+id/txtShareDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Renombrar archivo"
+            android:background="@drawable/dialog_bg"
+            android:textSize="17sp"
+            android:paddingVertical="12dp"/>
+
+        <TextView
+            android:id="@+id/txtDelFile"
+            android:layout_below="@+id/txtChangeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Eliminar archivo"
+            android:textSize="17sp"
+            android:paddingVertical="12dp"
+            android:background="@drawable/dialog_bg"/>
+        <TextView
+            android:id="@+id/txtNewPassDialog"
+            android:layout_below="@id/txtDelFile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Establecer contraseña"
+            android:textSize="17sp"
+            android:paddingVertical="12dp"
+            android:background="@drawable/dialog_bg"/>
+
+        <TextView
+            android:id="@+id/txtChangePassDialog"
+            android:layout_below="@id/txtNewPassDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Cambiar la contraseña"
+            android:textSize="17sp"
+            android:paddingVertical="12dp"
+            android:background="@drawable/dialog_bg"/>
+        <TextView
+            android:id="@+id/txtDelPassDialog"
+            android:layout_below="@id/txtChangePassDialog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Quitar la contraseña"
+            android:textSize="17sp"
+            android:paddingVertical="12dp"
+            android:background="@drawable/dialog_bg"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".LogInActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40dp"
+            android:textStyle="bold"
+            android:textColor="@color/classic_blue"
+            android:textSize="45sp"
+            android:layout_marginBottom="20dp"
+            android:text="Iniciar sesión"/>
+        <EditText
+            android:id="@+id/ltxtmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backgroudtxt"
+            android:padding="15dp"
+            android:paddingHorizontal="25dp"
+            android:layout_marginHorizontal="40dp"
+            android:layout_marginBottom="15dp"
+            android:inputType="textEmailAddress"
+            android:hint="Email"/>
+        <EditText
+            android:id="@+id/ltxtpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backgroudtxt"
+            android:padding="15dp"
+            android:paddingHorizontal="25dp"
+            android:layout_marginHorizontal="40dp"
+            android:inputType="textPassword"
+            android:hint="Password"/>
+        <Button
+            android:id="@+id/lbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backgroundbtn"
+            android:layout_marginTop="15dp"
+            android:text="Iniciar Sesión"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:textColor="@color/black"
+            android:text="¿Aún no tienes cuenta?"/>
+        <TextView
+            android:id="@+id/ltxtbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:textColor="@color/classic_blue"
+            android:layout_marginStart="10dp"
+            android:text="Registrate"/>
+    </LinearLayout>
+
+
+</LinearLayout>

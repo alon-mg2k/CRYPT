@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="20dp"
+    android:layout_gravity="center"
+    android:layout_marginHorizontal="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="15dp"
+        android:paddingBottom="10dp">
+
+        <TextView
+            android:id="@+id/txtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtTitleDialog"
+            android:layout_marginHorizontal="20dp"
+            android:gravity="center"
+            android:paddingVertical="15dp"
+            android:text="Text"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/btnAceptar"
+            android:layout_below="@id/txtDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Aceptar"
+            android:textSize="17sp"
+            android:paddingVertical="12dp"
+            android:background="@drawable/dialog_bg"/>
+
+        <TextView
+            android:id="@+id/btnCancelar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/btnAceptar"
+            android:layout_marginTop="48dp"
+            android:background="@drawable/dialog_bg"
+            android:gravity="center"
+            android:paddingVertical="12dp"
+            android:text="Cancelar"
+            android:textColor="@color/vivid_red"
+            android:textSize="17sp" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
